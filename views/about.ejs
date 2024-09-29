@@ -1,0 +1,58 @@
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+  
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .container h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+  
+    .container p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  
+    .about-us {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .about-us img {
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      border-radius: 50%;
+    }
+  
+    .about-us p {
+      width: 400px;
+      margin: 20px;
+    }
+  </style>
+  
+  <%- include('partials/header') %>
+  <div class="container">
+    <h1>About Us</h1>
+    <div class="about-us">
+      <img src="https://picsum.photos/200/300" alt="Team Member 1">
+      <p>Welcome to our ecommerce website! We're a team of passionate individuals dedicated to providing the best online shopping experience.</p>
+      <img src="https://picsum.photos/200/301" alt="Team Member 2">
+      <p>Our mission is to make it easy for customers to find and purchase the products they need, while also providing excellent customer service and support.</p>
+      <img src="https://picsum.photos/200/302" alt="Team Member 3">
+      <p>We're committed to building a community of happy customers, and we're always looking for ways to improve and expand our services.</p>
+    </div>
+  </div>
+  <%- include('partials/footer') %>
